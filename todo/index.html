@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <!-- 진행해야 할 직업
+        1. 사용자 이름 존재 => 이름 출력
+        이름이 없다면 => 이름 입력
+
+        2. to-do list(데이터)
+        데이터 입력- 저장(Create)
+        저장된 데이터 불러와서 출력(Read)
+        데이터 수정(Update)
+        데이터 삭제(Remove,Delete)
+        => CRUD 
+
+        Localstorge=> 브라우저 관리자 페이지 애플리케이션의 저장용량
+        key : value 형태 
+    -->
+
+    <section class="welcome notLoggin">
+        <h2>Welcome.</h2>
+        <form id="userName" action="">
+            <input type="text" placeholder="Enter your name to started." maxlength="10" required>
+        </form>
+    </section>
+    <section class="welcome Loggin">
+        <div class="output-username">
+            안녕하세요. <br>
+            <span class="name">00</span>님
+        </div>
+    </section>
+    <main>
+        <section class="todo">
+            <form id="userTodo" action=""></form>
+            <div class="todo-lists">
+                <div class="todo-list">
+                    <div class="todo">밥먹기</div>
+                    <div class="edit"></div>
+                    <div class="del"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+
+
+
+    <!--        
+        //시맨틱 웹/ 웹표준/ 접근성
+        // box model, position, media query(반응형 웹) 공부?
+        //가로정렬(display flex, display grid)
+        -->
+</body>
+</html>
